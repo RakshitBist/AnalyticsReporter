@@ -38,6 +38,7 @@ public class ReportService {
         response.put("totalUsers",totalUsers);
         response.put("uniqueUsers",uniqueUsers);
         response.put("devices",deviceMap);
+        response.put("events",eventMap);
         response.put("mobile",mobileUsers);
 
 
